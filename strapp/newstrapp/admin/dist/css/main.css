@@ -1,0 +1,68 @@
+body{
+	background-color:lavender;
+	
+}
+
+.logo{
+	margin-top:10%;
+	background-color:white;
+	padding:10px;
+}
+#container_main{
+	width:96%;
+	background-color:;
+	
+
+
+
+}
+#admin_sidebar{
+
+	background-color:green;
+
+}
+#top{
+	background-color:;
+
+
+
+}
+#logo{
+	width:150px;
+	height:150px;
+	border-radius:10%;
+}
+.container{
+	margin-top:5%;
+}
+#document{
+	padding:0.3%;
+	background-color:black;
+	margin-bottom:2%;
+	border-radius:10px;
+}
+#formal_letter{
+ background-color:red;
+ padding:2%;
+ border-radius:10px;
+ 
+}
+
+#department_table tr{
+	height:5px;
+
+}
+#department_table th{
+	height:5px;
+	font-weight:bold;
+	font-size:16px;
+	color:white;
+
+}
+
+#formal_letter tr td{
+
+	height:5px;
+	padding-left:10px;
+	background-color:lavender;
+	}

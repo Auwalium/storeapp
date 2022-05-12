@@ -1,0 +1,47 @@
+/*
+	Sitemap Styler 	 
+*/
+
+.leftmenu, .leftmenu ul, .leftmenu li{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+.leftmenu{}
+.leftmenu ul{
+	display:none;
+}
+.leftmenu li{
+	line-height:200%;
+	margin-top:1px;
+	background:#eee;
+	position:relative;
+	width:100%;
+}
+/* IE leaves a blank space where span is added so this is to avoid that */
+* html .leftmenu li{
+	float:left;
+	display:inline;
+}
+
+.leftmenu li a{padding-left:28px;}
+.leftmenu li span{float:left;position:absolute;top:5px;left:5px;width:13px;height:13px;cursor:auto;font-size:0;}
+.leftmenu li span, .leftmenu li span.collapsed{background:url(file:///C|/Users/ABUBAKAR/Downloads/1279694759/sitemapstyler/01/sitemapstyler/collapsed.gif) no-repeat 0 0;} 
+.leftmenu li span.expanded{background:url(file:///C|/Users/ABUBAKAR/Downloads/1279694759/sitemapstyler/01/sitemapstyler/expanded.gif) no-repeat 0 0;}
+
+/* second level */
+
+.leftmenu li li{
+	background:#fff;
+}
+.leftmenu li li a{padding-left:56px;}
+.leftmenu li li span{left:28px;}
+
+/* third level */
+
+.leftmenu li li li a{padding-left:84px;}
+.leftmenu li li li span{left:56px;}
+
+/* etc. */
+
+/*  */

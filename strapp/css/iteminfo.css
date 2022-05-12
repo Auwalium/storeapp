@@ -1,0 +1,225 @@
+<style>
+* {
+  box-sizing:border-box;
+}
+.Container{
+  background-color:#6CC;
+  width:1000px;
+  height:auto;
+  margin-left:auto;
+  margin-right:auto;
+  
+}
+.header{
+  background-color:#6CC;
+  height:100px;
+  width:15%;
+  text-align: left;
+  font-family: Verdana, Geneva, sans-serif;
+  color: #900;
+
+}
+.InHeader{
+	width:45%;
+	height:100px;
+	float:left;
+	position:absolute;
+	left: 600px;
+	top: 17px;
+
+	font-family: Tahoma, Geneva, sans-serif;
+	
+	
+	
+}
+
+.leftmenu {
+  background-color:#6CC;
+  padding:10px;
+  float:left;
+  height:550px;
+  width:23%; /* The width is 20%, by default */
+}
+
+.main {
+	background-color:#f1f1f1;
+	height:550px;
+	float:left;
+	width:70%;
+	padding: 20px;
+}
+
+.leftmenu ul{
+  list-style:none;
+  padding:10 0 0 0;
+  font-family:"Times New Roman", Times, serif;
+  font-size:16px;
+  font-style:normal;
+  line-height: 2;
+  outline: none;
+  text-decoration: none;
+  color:#333;
+  text-transform:capitalize;
+  margin:0px;
+}
+
+#Applyonline{
+	width:18%;
+	height:100px;
+	background-color:#FFF;
+	position:fixed;
+	float:left;
+	bottom:65px;
+	left:28%;
+	clear:none;
+}
+#Applicant{
+	width:18%;
+	height:100px;
+	background-color:#960;
+	position:fixed;
+	float:left;
+	left:48.5%;
+	bottom:65px;
+	clear:none;
+}
+#AdminLogin{
+	width:18%;
+	height:100px;
+	background-color:#960;
+	position:fixed;
+	float:left;
+	left:69%;
+	bottom:65px;
+	clear:none;
+}
+.botton{
+	width:60%;
+	height:100px;
+	display:flex;
+	position:absolute;
+	background-color:#CCC;
+	
+}
+	
+.Footer{
+  background-color:#6CC;
+  height:50px;
+  clear: left;
+}
+h6{
+	padding:10px;
+	justify-content: center;
+	text-decoration-color: #eddd;
+	color: #333;
+	margin: auto;
+	width: auto;
+	position: relative;
+	visibility: visible;
+	z-index: auto;
+	height: auto;
+	left: auto;
+	top: auto;
+	right: auto;
+	bottom: auto;
+	clip: rect(auto,auto,auto,auto);
+}
+p{
+	text-decoration-color:#F33;
+	justify-content:left;
+	margin-bottom:auto;
+	padding-top: 36px;
+	padding-bottom: 0px;
+	color: #600;
+	font-size: 20px;
+	font-style: oblique;
+	font-weight: bold;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+/* Use a media query to add a break point at 800px: */
+@media screen and (max-width:1000px) {
+  .Container, .leftmenu, .main, .Right, .Header, .Footer {
+    width:100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+}
+#fmcl {
+	background-color: #0CC;
+	float: none;
+	height: 49px;
+	width: 49px;
+	padding-top: 20px;
+	padding-right: 10px;
+	padding-bottom: 20px;
+	padding-left: 10px;
+	top: auto;
+	bottom: auto;
+	clip: rect(auto,auto,auto,auto);
+}
+	a{
+		text-decoration:none;
+		color:#666;
+		
+		
+}
+a:link{
+	color:#333;
+	text-decoration:none;
+}
+a:visited{
+	color:#600;
+	background-color:#F00;
+}
+a:hover{
+	color:#9F3;
+	text-decoration:blink;
+	
+}
+a:active{
+	color:#FFF;
+	text-decoration:underline;
+	background-color:
+}
+.Container .main center table {
+	color: #FFF;
+}
+.Container .main center table {
+	color: #C03;
+}
+	
+input[type=text]{
+	width:100%;
+	display:inline-block;
+	}
+input[type=submit]{
+	width:100%;
+	display:block;
+	background-color:#093;
+	font-size:20px;
+	}
+ input[type=reset]{
+	 width:100%;
+	 display:block;
+	 background-color:#F30;
+	 font-size:20px;
+	 border-radius:50%;
+ }
+input[type=file]{
+	width:60%;
+	display:inline;
+	}
+.mod{
+	background-color:#FC6;
+	position:absolute;
+	float:right;
+	left: 995px;
+	top: 625px;
+}
+legend{
+	text-transform:uppercase;
+	border:1px solid #F00;
+	background-color:#096;
+	color:#FFF;
+	border-radius:20px;
+}
+</style>

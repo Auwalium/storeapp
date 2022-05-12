@@ -1,0 +1,65 @@
+@charset "utf-8";
+/* CSS Document */
+{
+  box-sizing: border-box;
+}
+
+
+#Container{
+	background-color:#6CF;
+	width:1000px;
+	height:auto;
+	margin-left:auto;
+	margin-right:auto;
+	
+}
+
+#Header{
+	background-color:#6CC;
+	height:100px;
+	text-align: left;
+	font-family: Verdana, Geneva, sans-serif;
+	color: #900;
+	text-align: right;
+}
+
+#SideBar{
+	background-color:#6CC;
+	width:20%;
+	height:550px;
+	float:left;
+}
+#MainBody{
+	background-color:#FFF;
+	width:70%;
+	height:550px;
+	float:left;
+}
+#SideBarR{
+	background-color:#333;
+	width:10%;
+	height:300px;
+	float:right;
+}
+#Footer{
+	background-color:#6CC;
+	height:50px;
+	clear:both;
+}
+#SideBar ul{
+	list-style:none;
+	padding:10 0 0 0;
+	font-family:"Times New Roman", Times, serif;
+	font-size:12px;
+	font-style:normal;
+	color:#333;
+	text-transform:capitalize;
+	margin:0px;
+}
+
+@media only screen and (max-width: 1000px) {
+    /* For mobile phones: */
+    #SideBar, #SidebarR, #Mainbody {
+        width: 100%;
+    }
+}

@@ -1,0 +1,45 @@
+body{
+	background-color:white;
+	
+}
+
+.logo{
+	margin-top:10%;
+	background-color:white;
+	padding:10px;
+}
+#container_main{
+	width:96%;
+	background-color:red;
+	
+
+
+
+}
+#logo{
+	width:150px;
+	height:150px;
+	border-radius:10%;
+}
+.container{
+	margin-top:5%;
+}
+#document{
+	padding:0.3%;
+	background-color:black;
+	margin-bottom:10%;
+	border-radius:10px;
+}
+#formal_letter{
+
+
+ background-color:lavender;
+
+}
+
+#formal_letter tr td{
+
+	height:5px;
+	padding-left:10px;
+	background-color:lavender;
+	}

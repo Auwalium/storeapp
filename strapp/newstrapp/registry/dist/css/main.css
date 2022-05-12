@@ -1,0 +1,281 @@
+body{
+	background-color:lavender;
+	
+}
+
+.logo{
+	margin-top:10%;
+	background-color:white;
+	padding:10px;
+}
+#tab_sum_big{
+
+	background-color:white;
+	padding:5px;
+
+}
+#tab_sum{
+
+	background-color:whitesmoke;
+	padding:0px;
+	width:100%;
+	color:#222;
+
+}
+#container_main{
+	width:96%;
+	background-color:red;
+
+}
+
+
+
+#summary_table{
+	background-color:whitesmoke;
+	text-align:left;
+	
+}
+#summary_table th {
+	background-color:whitesmoke;
+	font-size:12px;
+	text-align:center;
+	padding:2px;
+	border:1px solid #eee;
+	font-weight:normal;
+	
+	
+}
+
+#summary_table td {
+	background-color:whitesmoke;
+	font-size:11px;
+	text-align:center;
+	padding:2px;
+	border:1px solid #eee;
+	font-weight:normal;
+	color:rgb(62, 85, 105);
+	padding-top:1%;
+	padding-bottom:1%;
+	font-weight:normal;
+}
+
+#summary_table th h4 {
+	
+	text-align:left;
+	padding:0px;
+	margin-left:5px;
+	font-weight:bold;
+	font-size:14px;
+	color:#222;
+	padding-top:1%;	
+}
+.page-title{
+	color:#2B3856;
+	font-size:16px;
+	text-shadow:1px 1px white;
+
+}
+
+h4{
+
+	font-size:15px;
+	color:#222;
+}
+
+#doc_table{
+ 	background-color:red;
+ 	padding:1%;
+}
+#doc_table th{
+ 	background-color:#0067ab;
+ 	padding:1%;
+ 	font-size:12px;
+ 	width:200px;
+ 	text-align:center;
+ 	color:lavender;
+ 	
+}
+#main_cont{
+	margin-left:2%;
+	background-color:red;
+	
+
+
+
+}
+#doc_table td{
+ 	background-color:white;
+ 	padding:3px;
+ 	font-size:12px;
+ 	width:200px;
+ 	text-align:center;
+ 	border:1px solid lavender;
+}
+
+.btn{
+	border-radius:10px;
+
+
+}
+#admin_sidebar{
+
+	background-color:green;
+
+}
+#top{
+	background-color:;
+	color:navy;
+
+}
+#men{
+	color:lavender;
+	text-shadow:1px 1px black;
+	opacity:6;
+	
+	
+	
+}
+#men:hover{
+
+	color:white;
+	background-color:transparent;
+	text-shadow:1px 1px black;
+	opacity:6;
+	
+
+}
+
+#large_card{
+
+	background-color:#333;
+	border-radius:0px;
+	padding:0%;
+	border:0px solid grey;
+	margin-bottom:0px;
+	margin-left:2%;
+}
+#card{
+	background-color:whitesmoke;
+	padding:0%;
+	border-radius:0px;
+	border:0px solid grey;
+	
+}
+#logo{
+	width:150px;
+	height:150px;
+	border-radius:10%;
+}
+.search{
+
+	background-color:white;
+	padding:1%;
+	width:100%;
+	border:1px solid whitesmoke;
+
+}
+
+
+.container{
+	margin-top:5%;
+}
+#document{
+	padding:0.3%;
+	background-color:black;
+	margin-bottom:10%;
+	border-radius:10px;
+}
+#formal_letter{
+ background-color:lavender;
+ padding:2%;
+ 
+}
+#page_head{
+	background-color:lavender;
+	padding-bottom:1%;
+	border-bottom:1px solid black;
+}
+#header-label{
+ 	background-color:lavender;
+ 	padding-bottom:1%; 
+ 	box-shadow:2px 2px 2px 2px grey;
+
+}
+#form{
+padding:2%;
+background-color:lavender;
+
+}
+#form_content{
+	padding:10px;
+	background-color:lavender;
+	box-shadow:5px 5px 4px 4px grey;
+	
+}
+#formal_letter tr td{
+
+	height:5px;
+	padding-left:10px;
+	background-color:lavender;
+	}
+	
+
+.modalDialog {
+	position: fixed;
+	font-family: Arial, Helvetica, sans-serif;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+	z-index: 99999;
+	opacity:0;
+	-webkit-transition: opacity 400ms ease-in;
+	-moz-transition: opacity 400ms ease-in;
+	transition: opacity 400ms ease-in;
+	pointer-events: none;
+}
+
+
+
+.modalDialog:target {
+	opacity:1;
+	pointer-events: auto;
+}
+
+.modalDialog > div {
+	width: 400px;
+	position: relative;
+	margin: 10% auto;
+	padding: 5px 20px 13px 20px;
+	border-radius: 10px;
+	background: #fff;
+	background: -moz-linear-gradient(#fff, #999);
+	background: -webkit-linear-gradient(#fff, #999);
+	background: -o-linear-gradient(#fff, #999);
+}
+
+
+
+.close {
+	background: #606061;
+	color: #FFFFFF;
+	line-height: 25px;
+	position: absolute;
+	right: -12px;
+	text-align: center;
+	top: -10px;
+	width: 24px;
+	text-decoration: none;
+	font-weight: bold;
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	border-radius: 12px;
+	-moz-box-shadow: 1px 1px 3px #000;
+	-webkit-box-shadow: 1px 1px 3px #000;
+	box-shadow: 1px 1px 3px #000;
+}
+
+.close:hover { background: #00d9ff; }
+
+

@@ -1,0 +1,111 @@
+* {
+  box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header, .footer,.hmenu {
+  background-color: #6cc;
+  color: white;
+  padding: 15px;
+
+}
+
+.column {
+  float: left;
+  padding: 10px;
+ 
+  
+  
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+  
+}
+
+.menu {
+  max-width: 30%;
+  overflow-x: auto;
+  
+
+ 
+  
+}
+
+.content {
+  width: 70%;
+  height: 500px;
+  overflow: hidden;
+  
+
+}
+
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  padding: 8px;
+  margin-bottom: 8px;
+  background-color: rgb(100 78 200);
+  color: #ffffff;
+  border-radius:20px; 
+}
+
+.menu li:hover {
+  background-color: #0099cc;
+}
+.log{
+  float: left;
+  padding: 10px;
+  padding-bottom: 10px;
+  
+}
+
+a:link{
+	color:white;
+	text-decoration:none;
+}
+a:visited{
+	color:white
+	
+}
+a:hover{
+	color:#9F3;
+	text-decoration:blink;
+	
+}
+a:active{
+	color:#FFF;
+	text-decoration:underline;
+	background-color:
+}
+body{
+    padding-top: 10%;
+    padding-bottom: 15%;
+    background-color: whitesmoke;
+}
+.loginwrapper{
+    width: 50%;
+    background-color: whitesmoke;
+    margin: auto;
+    height: 100%;
+}
+
+.input-group-addon{
+    background-color: black;
+    color: white;
+    border-radius: 0px 20px;
+}
+
+
